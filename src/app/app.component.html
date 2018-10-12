@@ -1,1 +1,7 @@
-<h3>Cat Shelter is coming soon..</h3>
+<h2>Cat Shelter</h2>
+<a [routerLink]="['home']" *ngIf="false">Home</a>
+<a [routerLink]="['cats']" *ngIf="false">Cat List</a>
+
+<router-outlet></router-outlet>
+
+<app-cat></app-cat>
